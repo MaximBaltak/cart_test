@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="minus">
+        <path d="M8 0.999999L0 1" stroke="#8E1C0C"/>
+    </symbol>
+    <symbol id="plus">
+        <path d="M4 10L4 0" stroke="#0C8E30"/>
+        <path d="M8 5L0 5" stroke="#0C8E30"/>
+    </symbol>
+</svg>

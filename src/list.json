@@ -1,0 +1,20 @@
+[
+  {
+    "id": "910",
+    "title": "Samsung Galaxy A12",
+    "price": 18000,
+    "count": 1
+  },
+  {
+    "id": "452",
+    "title": "Xiaomi Redmi 9C",
+    "price":  9999,
+    "count": 1
+  },
+  {
+    "id": "53",
+    "title": "Samsung Galaxy A52",
+    "price": 27400,
+    "count": 1
+  }
+]

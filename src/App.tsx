@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
-
+import AddFrom from "./components/AddFrom/AddFrom";
+import Submit from "./components/Submit/Submit";
+import Price from "./components/Price/Price";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+        <h1 className='title'>Корзина</h1>
+        <AddFrom/>
+        <div className='flex'>
+            <Price/>
+            <Submit/>
+        </div>
     </div>
   );
 }
